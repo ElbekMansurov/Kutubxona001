@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kutubxona</title>
+<link rel="stylesheet" href="../static/css/index.css" />
+</head>
+<body>
+<header>
+<h1>Kutubxona</h1>
+<nav>
+<a href="/login">Kirish</a>
+<a href="/register">Ro‘yxatdan o‘tish</a>
+</nav>
+</header>
+
+
+<div class="container">
+<h2>Kitob qo‘shish</h2>
+<input type="text" id="bookName" placeholder="Kitob nomi" />
+<input type="text" id="author" placeholder="Muallif" />
+<button onclick="addBook()">Qo‘shish</button>
+
+
+<h2>Kitoblar ro‘yxati</h2>
+<ul id="bookList"></ul>
+</div>
+
+
+<script src="../static/css/index.js"></script>
+</body>
+</html>
